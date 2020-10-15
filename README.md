@@ -1,7 +1,6 @@
-# container-from-scratch-python
-This is building a container from scratch
+# containerized-sentiment-analysis-CLT
 
-# Contents
+## Contents
 This container contains a command-line tool takes a string phrase, and performs sentiment analysis on it.
     Returns overall phrase sentiment
     Returns language
@@ -10,6 +9,6 @@ This container contains a command-line tool takes a string phrase, and performs 
 ## Run it yourself
 
 ```bash
-docker pull noahgift/cloudapp:latest
-docker run -it noahgift/cloudapp bash 
+docker pull malcolmsfraser/sentimentclt:latest
+docker run -it malcolmsfraser/sentimentclt
 ```
