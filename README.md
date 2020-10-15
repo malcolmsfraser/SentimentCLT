@@ -11,4 +11,5 @@ This container contains a command-line tool takes a string phrase, and performs 
 ```bash
 docker pull malcolmsfraser/sentimentclt:latest
 docker run -it malcolmsfraser/sentimentclt
+python sentiment.py --phrase " **text here** "
 ```
